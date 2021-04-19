@@ -105,9 +105,9 @@ node_modules/
 # Cloudflare Pages を設定する(2)
 - 画面の指示通り、GitHubとの連携、リポジトリの選択をします
 - ビルドは、下記のように設定してください
-  - 「Framework preset」は、「None」を選択します
-  - 「Build command」に、「npm run build」を入れます
-  - 「Build output directory」に、「dist」を入れます
+  - 「フレームワーク プリセット」は、「None」を選択します
+  - 「ビルド コマンド」に、「npm run build」を入れます
+  - 「ビルド出力ディレクトリ」に、「dist」を入れます
 - 設定が終わったら、ビルドが始まるので完了まで待ちます
 
 ---
