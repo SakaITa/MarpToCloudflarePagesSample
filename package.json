@@ -1,0 +1,16 @@
+{
+  "name": "marp-to-azurestaticwebapps-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@marp-team/marp-cli": "^0.21.0",
+    "cpx": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "marp -I . -o dist && cpx images/** dist/images"
+  },
+  "author": "SakaIT",
+  "license": "MIT"
+}
