@@ -84,7 +84,7 @@ npm install cpx
     - 出力ディレクトリに images ディレクトリの中身をコピー
 ```
   "scripts": {
-    "build": "marp -I . -o dist && cpx images/** dist/images"
+    "build": "marp -I . -o dist && cpx 'images/**' dist/images"
   },
 ```
 
