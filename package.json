@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "marp -I . -o dist && cpx images/** dist/images"
+    "build": "marp -I . -o dist && cpx 'images/**' dist/images"
   },
   "author": "SakaIT",
   "license": "MIT"
