@@ -5,6 +5,11 @@ theme: gaia
 _class: lead
 paginate: true
 marp: true
+style: |
+  img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+  }
 ---
 
 # **Marp to Cloudflare Pages sample**
@@ -98,11 +103,14 @@ node_modules/
 
 # Cloudflare Pages を設定する(1)
 - Cloudflare のアカウントホームに入ります
-- ページを選択し、「プロジェクトを作成」を選択します
+- 「ページ」を選択します
+
+![height:400px center](images/image00.png)
 
 ---
 
 # Cloudflare Pages を設定する(2)
+- 「プロジェクトを作成」を選択します
 - 画面の指示通り、GitHubとの連携、リポジトリの選択をします
 - ビルドは、下記のように設定してください
   - 「フレームワーク プリセット」は、「None」を選択します
